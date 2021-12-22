@@ -17,13 +17,9 @@ const io = new IOServer(httpServer);
 const product = new Product(__dirname + "/data/products.json")
 
 // Arrancamos el servidor con http.listen() en lugar de app.listen()
-const server = app.listen(process.env.PORT || 8080 , ()=>{
-    try{
-        console.log('run')
-    }
-    catch(err){
-        console.log(err)
-    };
+app.listen(process.env.PORT || 3000, () => {
+    console.log('Server Running')
+});
 // no olvidarse de esto si vamos a responder con json. Sino lo muestra vacío
 app.use(express.json()) 
  // Reconoce lo que le pasemos en el request como objeto
