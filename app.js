@@ -37,7 +37,6 @@ app.set('views', './public')
 app.set('view engine', 'handlebars')
         
 
-/////////////// RUTAS desafío 4 ///////////////////////
 
 // trae toda la lista
 router.get("/", (req, res) => {
@@ -74,9 +73,9 @@ router.delete("/:id", (req, res) => {
 // rutas desafío 6
 
 const messages = [
-    {email: "emiliano@HEGaming.com", date: "[12/22/2021, 4:55:01 AM]", data: "Bienvenido!"},
-    {email: "huguito@HEGaming.com", date: "[12/15/2021, 4:55:11 AM]", data: "Ante cualquier duda, no dude en escribirnos!"},
-    {email: "huguito@HEGaming.com", date: "[12/15/2021, 4:55:50 AM]", data: ":)"}
+    {email: "emiliano@HEGaming.com", date: "[22/12/2021, 4:55:01 AM]", data: "Bienvenido!"},
+    {email: "huguito@HEGaming.com", date: "[22/12/2021, 4:55:11 AM]", data: "Ante cualquier duda, no dude en escribirnos!"},
+    {email: "huguito@HEGaming.com", date: "[22/12/2021, 4:55:50 AM]", data: ")"}
 ]
 
 app.get("/", (req, res) => {
