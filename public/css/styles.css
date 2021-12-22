@@ -1,0 +1,18 @@
+#email {
+  color: blue;
+  font-weight: bold;
+}
+
+#email[placeholder] {
+  color: black;
+  font-weight: normal;
+}
+
+#date {
+  color: brown;
+}
+
+#data {
+  color: green;
+  font-style: italic;
+}
